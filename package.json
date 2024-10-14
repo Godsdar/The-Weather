@@ -1,0 +1,22 @@
+{
+  "name": "weatherapp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "webpack serve --mode development",
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "animejs": "^3.2.2",
+    "asset": "^0.4.13",
+    "bootstrap-grid": "^3.0.1",
+    "html-webpack-plugin": "^5.6.0",
+    "normalize-css": "^2.3.1"
+  }
+}
